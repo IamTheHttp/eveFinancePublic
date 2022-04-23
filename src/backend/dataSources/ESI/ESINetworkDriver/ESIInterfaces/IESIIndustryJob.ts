@@ -1,0 +1,20 @@
+export interface IESIIndustryJob {
+  activity_id: number,
+  blueprint_id: number,
+  blueprint_location_id: number,
+  blueprint_type_id: number,
+  cost: number,
+  duration: number,
+  end_date: string,
+  facility_id: number,
+  installer_id: number,
+  job_id: number,
+  licensed_runs: number,
+  location_id: number,
+  output_location_id: number,
+  probability: number,
+  product_type_id: number,
+  runs: number,
+  start_date: string,
+  status: string
+}

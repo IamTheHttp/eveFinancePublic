@@ -1,0 +1,8 @@
+.idea
+**/node_modules
+backend/eve_static_data.zip
+backend/eve_static_data_yaml
+TS_OUTPUT
+dist
+!dist/index.html
+/logs

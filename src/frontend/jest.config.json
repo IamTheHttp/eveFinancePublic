@@ -1,0 +1,30 @@
+{
+  "modulePaths": [
+    "<rootDir>/",
+    "<rootDir>/src"
+  ],
+  "testRegex": "test.js$|test.tsx$",
+  "transformIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "setupFiles": [
+    "./__TESTS__/setup.js"
+  ],
+  "collectCoverageFrom": [
+    "src/**/*.{js,jsx,ts,tsx}"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 80,
+      "functions": 80,
+      "lines": 85,
+      "statements": 85
+    }
+  },
+  "preset": "ts-jest",
+  "moduleDirectories": [
+    "./src",
+    "node_modules"
+  ],
+  "bail": true
+}
