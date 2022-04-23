@@ -8,6 +8,10 @@
   - API Secret
   - MongoDB path
 
+
+### Updating static data files 
+- `npm run update-static-data`
+
 ### Running locally for development
 - `npm install`
 - setup the test DB for local testing `run npm run setup-test-db`
